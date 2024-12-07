@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+
+
+body{
+    background-color: #202020;
+    color: white;
+}
+
+/* NavBar */
+.list-nav a{
+    font-family: "Cambo", sans-serif;
+}
+
+.bans{
+    background-color: #EFEBE0;
+}
+
+.bans-text{
+    color: #243A33;
+    width: 30rem;
+}
+
+.bans-text button{
+    background-color: #243A33;
+}
+
+.bans-Promo{
+    background-color: #1F3A31;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 15px;
+}
